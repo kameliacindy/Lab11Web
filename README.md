@@ -235,6 +235,44 @@ Dan seperti tampilannya.
 
 ![enter image description here](https://github.com/kameliacindy/Lab11Web/blob/main/img2/ss_hapus.PNG)
 
+
+# Praktikum 14 : Pagination dan Pencarian
+
+## Membuat Pagination
+Untuk membuat pagination, buka Kembali **Controller Artikel**, kemudian modifikasi kode pada method **admin_index** seperti berikut.
+
+![enter image description here](https://github.com/kameliacindy/Lab11Web/blob/main/img4/modif_method_adminindex.PNG)
+
+Kemudian buka file **views/artikel/admin_index.php** dan tambahkan kode berikut dibawah deklarasi tabel data.
+
+![enter image description here](https://github.com/kameliacindy/Lab11Web/blob/main/img4/tambahkode_view_artikel.PNG)
+
+## Membuat Pencarian
+Untuk membuat pencarian data, buka kembali **Controller Artikel**, pada method **admin_index** ubah kodenya seperti berikut.
+
+![enter image description here](https://github.com/kameliacindy/Lab11Web/blob/main/img4/membuat_pencarian.PNG)
+
+Kemudian buka kembali file v**iews/artikel/admin_index.php** dan tambahkan form pencarian sebelum deklarasi tabel seperti berikut:
+
+![enter image description here](https://github.com/kameliacindy/Lab11Web/blob/main/img4/form_pencarian.PNG)
+
+Dan pada link pager ubah seperti berikut.
+
+![enter image description here](https://github.com/kameliacindy/Lab11Web/blob/main/img4/link_pager.PNG)
+
+## Upload Gambar
+Buka kembali **Controller Artikel**, sesuaikan kode pada method **add** seperti berikut:
+
+![enter image description here](https://github.com/kameliacindy/Lab11Web/blob/main/img4/upload_gambar.PNG)
+
+Kemudian pada file **views/artikel/form_add.php** tambahkan field input file seperti berikut.
+
+![enter image description here](https://github.com/kameliacindy/Lab11Web/blob/main/img4/field_input_gambar.PNG)
+
+Dan sesuaikan tag form dengan menambahkan *ecrypt type* seperti berikut.
+
+![enter image description here](https://github.com/kameliacindy/Lab11Web/blob/main/img4/tag_form.PNG)
+
 Terimakasih, semoga bermanfaat.
 
 Nama	: Kamelia Cindy Astuti
